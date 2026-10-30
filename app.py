@@ -105,4 +105,4 @@ PAGES = {
 }
 
 page = st.sidebar.radio("Go to", list(PAGES))
-PAGE[page]() 
+PAGES[page]() 
